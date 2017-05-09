@@ -42,7 +42,7 @@ OpenCV (I use version 3.2.0)
 
 ffmpeg (the version I have set up is "ffmpeg-20170225-7e4f32f-win64-dev" -- you'll need both the shared and dev versions from https://ffmpeg.zeranoe.com/builds/ )
 
-WebRTC. Building WebRTC is a nightmare. Thankfully, you shouldn't have to do it. I've saved a ZIP in the webrtc-mentor-client (webrtc-checkout-src.zip) that contains the include and lib files you'll need. Extract it somewhere.
+WebRTC. Building WebRTC is a nightmare. Thankfully, you shouldn't have to do it. Sourcey provides prebuilt versions of WebRTC: https://sourcey.com/precompiled-webrtc-libraries/ I used version 58. Note that the Windows download doesn't include the headers; for that you'll need to download the linux version too and copy over the "include" directory. Make a directory somewhere and put the "libs" and "include" folders in it.
 
 OpenSSL (I don't actually know if this is needed since WebRTC comes with its own version, but if you do end up needing it, get it from https://slproweb.com/products/Win32OpenSSL.html and make sure to get the 1.0.2 version and not the 1.1.0 version)
 
